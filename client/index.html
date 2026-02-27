@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Grand Hotel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- ================================
+         Navbar
+    ================================ -->
+    <nav class="navbar">
+      <a href="index.html" class="nav-brand">The Grand Hotel</a>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="booking.html" class="nav-cta">Book Now</a></li>
+      </ul>
+    </nav>
+
+    <!-- ================================
+         Hero
+    ================================ -->
+    <section class="hero" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>The Grand Hotel</h1>
+        <p class="hero-motto">Where Luxury Meets Comfort</p>
+        <a href="booking.html" class="btn-primary">Book Your Stay</a>
+      </div>
+    </section>
+
+    <!-- ================================
+         Intro / Motto
+    ================================ -->
+    <section class="intro">
+      <p class="intro-quote">"A home away from home — crafted for those who expect the finest."</p>
+      <p class="intro-sub">
+        Nestled in the heart of the city, The Grand Hotel offers world-class rooms,
+        exceptional service, and an experience you will never forget.
+      </p>
+    </section>
+
+    <!-- ================================
+         Why Choose Us
+    ================================ -->
+    <section class="why-us">
+      <h2 class="section-title">Why Choose Us</h2>
+      <p class="section-sub">Here's what makes The Grand Hotel different.</p>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <span class="why-icon">🏆</span>
+          <h3>Award-Winning Service</h3>
+          <p>Recognized as Jakarta's finest hotel for 5 consecutive years by the Hospitality Excellence Awards.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-icon">🍳</span>
+          <h3>Free Breakfast</h3>
+          <p>Complimentary buffet breakfast included with every stay. Start your day the grand way.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-icon">📍</span>
+          <h3>Prime Location</h3>
+          <p>Situated in Jakarta's most prestigious business district — minutes from key landmarks and offices.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-icon">🔒</span>
+          <h3>Flexible Cancellation</h3>
+          <p>Plans change. Enjoy free cancellation up to 24 hours before your check-in date, no questions asked.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================
+         Facilities / Amenities
+    ================================ -->
+    <section class="amenities">
+      <h2 class="section-title">Our Facilities</h2>
+      <p class="section-sub">Everything you need for a perfect stay — all under one roof.</p>
+
+      <div class="amenities-grid">
+        <div class="amenity-item">
+          <span class="amenity-icon">🏊</span>
+          <span>Swimming Pool</span>
+        </div>
+        <div class="amenity-item">
+          <span class="amenity-icon">💪</span>
+          <span>Fitness Center</span>
+        </div>
+        <div class="amenity-item">
+          <span class="amenity-icon">🍽️</span>
+          <span>Restaurant & Bar</span>
+        </div>
+        <div class="amenity-item">
+          <span class="amenity-icon">💆</span>
+          <span>Spa & Wellness</span>
+        </div>
+        <div class="amenity-item">
+          <span class="amenity-icon">🏢</span>
+          <span>Conference Rooms</span>
+        </div>
+        <div class="amenity-item">
+          <span class="amenity-icon">🚗</span>
+          <span>Free Parking</span>
+        </div>
+        <div class="amenity-item">
+          <span class="amenity-icon">✈️</span>
+          <span>Airport Shuttle</span>
+        </div>
+        <div class="amenity-item">
+          <span class="amenity-icon">🛎️</span>
+          <span>24/7 Room Service</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================
+         Rooms
+    ================================ -->
+    <section class="rooms" id="rooms">
+      <h2 class="section-title">Our Rooms</h2>
+      <p class="section-sub">Choose from our carefully curated selection of rooms.</p>
+
+      <div class="room-list">
+
+        <!-- Standard -->
+        <div class="room-card">
+          <div class="room-image">
+            <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=900&q=80" alt="Standard Room" />
+          </div>
+          <div class="room-info">
+            <span class="room-tag">Standard</span>
+            <h3>Standard Room</h3>
+            <p class="room-desc">
+              Cozy and comfortable with a garden view and twin beds.
+              Ideal for solo travelers or short business trips seeking a clean, restful stay.
+            </p>
+            <ul class="room-facilities">
+              <li>Free WiFi</li>
+              <li>Air Conditioning</li>
+              <li>Smart TV</li>
+              <li>Free Parking</li>
+            </ul>
+            <div class="room-footer">
+              <span class="room-price">Rp 300.000 <small>/ night</small></span>
+              <a href="booking.html?room=Standard+Room" class="btn-secondary">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deluxe -->
+        <div class="room-card">
+          <div class="room-image">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=900&q=80" alt="Deluxe Room" />
+          </div>
+          <div class="room-info">
+            <span class="room-tag">Deluxe</span>
+            <h3>Deluxe Room</h3>
+            <p class="room-desc">
+              Spacious room with a stunning city view and a king-size bed.
+              Enjoy premium amenities and a complimentary breakfast to start your day right.
+            </p>
+            <ul class="room-facilities">
+              <li>Free WiFi</li>
+              <li>Air Conditioning</li>
+              <li>Smart TV</li>
+              <li>Free Breakfast</li>
+              <li>City View</li>
+              <li>Free Parking</li>
+            </ul>
+            <div class="room-footer">
+              <span class="room-price">Rp 500.000 <small>/ night</small></span>
+              <a href="booking.html?room=Deluxe+Room" class="btn-secondary">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Luxury -->
+        <div class="room-card">
+          <div class="room-image">
+            <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=900&q=80" alt="Luxury Suite" />
+          </div>
+          <div class="room-info">
+            <span class="room-tag luxury">Luxury</span>
+            <h3>Luxury Suite</h3>
+            <p class="room-desc">
+              Our crown jewel. A top-floor suite with a private plunge pool, panoramic skyline views,
+              and dedicated butler service — crafted for the most discerning guests.
+            </p>
+            <ul class="room-facilities">
+              <li>Free WiFi</li>
+              <li>Air Conditioning</li>
+              <li>Smart TV</li>
+              <li>Free Breakfast</li>
+              <li>Private Pool</li>
+              <li>Butler Service</li>
+              <li>Panoramic View</li>
+            </ul>
+            <div class="room-footer">
+              <span class="room-price">Rp 1.200.000 <small>/ night</small></span>
+              <a href="booking.html?room=Luxury+Suite" class="btn-secondary">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================
+         Gallery
+    ================================ -->
+    <section class="gallery" id="gallery">
+      <h2 class="section-title">Gallery</h2>
+      <p class="section-sub">A glimpse into life at The Grand Hotel.</p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1455587734955-081b22074882?w=800&q=80" alt="The Lobby" />
+          <span class="gallery-caption">The Lobby</span>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80" alt="Infinity Pool" />
+          <span class="gallery-caption">Infinity Pool</span>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80" alt="Deluxe Room" />
+          <span class="gallery-caption">Deluxe Room</span>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="Fine Dining" />
+          <span class="gallery-caption">Fine Dining</span>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80" alt="Spa & Wellness" />
+          <span class="gallery-caption">Spa & Wellness</span>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80" alt="Hotel Exterior" />
+          <span class="gallery-caption">Hotel Exterior</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================
+         Promo Banner
+    ================================ -->
+    <section class="promo">
+      <div class="promo-content">
+        <p class="promo-tag">Limited Time Offer</p>
+        <h2>Stay 3 Nights, Get 1 Free</h2>
+        <p class="promo-sub">Book before December 31, 2025. Valid for all room types. No promo code needed.</p>
+        <a href="booking.html" class="btn-primary">Claim This Offer</a>
+      </div>
+    </section>
+
+    <!-- ================================
+         Testimonials
+    ================================ -->
+    <section class="testimonials">
+      <h2 class="section-title">What Our Guests Say</h2>
+      <p class="section-sub">Real experiences from real guests.</p>
+
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "The service was absolutely impeccable. Every detail was thoughtfully considered.
+            I wouldn't stay anywhere else in Jakarta."
+          </p>
+          <div class="testimonial-author">
+            <span class="author-name">Sarah Johnson</span>
+            <span class="stars">★★★★★</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "Woke up to a breathtaking city view every morning. The breakfast spread was
+            phenomenal. Highly recommended!"
+          </p>
+          <div class="testimonial-author">
+            <span class="author-name">David Chen</span>
+            <span class="stars">★★★★★</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "Perfect blend of luxury and comfort. The staff went above and beyond to make
+            our anniversary stay truly special."
+          </p>
+          <div class="testimonial-author">
+            <span class="author-name">Maria & Joko Santos</span>
+            <span class="stars">★★★★★</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================
+         Location
+    ================================ -->
+    <section class="location" id="location">
+      <h2 class="section-title">Find Us</h2>
+      <p class="section-sub">Located in the heart of Jakarta's business district.</p>
+
+      <div class="location-content">
+        <div class="location-map">
+          <iframe
+            src="https://maps.google.com/maps?q=Jl+Sudirman+Jakarta&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="350"
+            style="border: 0; border-radius: 12px;"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="location-info">
+          <div class="location-detail">
+            <span class="location-icon">📍</span>
+            <div>
+              <strong>Address</strong>
+              <p>Jl. Jend. Sudirman No. 1<br />Jakarta Pusat, 10220</p>
+            </div>
+          </div>
+          <div class="location-detail">
+            <span class="location-icon">📞</span>
+            <div>
+              <strong>Phone</strong>
+              <p>+62 21 1234 5678</p>
+            </div>
+          </div>
+          <div class="location-detail">
+            <span class="location-icon">✉️</span>
+            <div>
+              <strong>Email</strong>
+              <p>hello@thegrandhotel.com</p>
+            </div>
+          </div>
+          <div class="location-detail">
+            <span class="location-icon">🕐</span>
+            <div>
+              <strong>Check-in / Check-out</strong>
+              <p>Check-in from 14:00<br />Check-out until 12:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================
+         Footer
+    ================================ -->
+    <footer class="footer">
+      <div class="footer-grid">
+
+        <div class="footer-col">
+          <h4>The Grand Hotel</h4>
+          <p>© 2025 The Grand Hotel. All rights reserved.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="booking.html">Book Now</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>📍 Jl. Sudirman No. 1, Jakarta</p>
+          <p>📞 +62 21 1234 5678</p>
+          <p>✉️ hello@thegrandhotel.com</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <ul class="social-links">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,6 +1,6 @@
-# Meeting Room Booking App
+# Hotel Room Booking App
 
-A simple fullstack app to **book meeting rooms**. Built step-by-step as a learning project.
+A simple fullstack app to **book hotel rooms**. Built step-by-step as a learning project.
 
 ---
 

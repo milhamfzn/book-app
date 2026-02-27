@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a Room — The Grand Hotel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="index.html" class="nav-brand">The Grand Hotel</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#rooms">Rooms</a></li>
+        <li><a href="booking.html" class="nav-cta">Book Now</a></li>
+      </ul>
+    </nav>
+
+    <!-- Booking Page Content -->
+    <div class="booking-page">
+      <div class="booking-container">
+        <h1>Book a Room</h1>
+        <p class="booking-sub">Fill in your details below to reserve your stay.</p>
+
+        <form id="booking-form">
+
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="John Doe" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="john@example.com" />
+          </div>
+
+          <div class="form-group">
+            <label for="room">Room</label>
+            <select id="room">
+              <option value="">-- Select a room --</option>
+              <option>Standard Room</option>
+              <option>Deluxe Room</option>
+              <option>Luxury Suite</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="checkin">Check-in Date</label>
+              <input type="date" id="checkin" />
+            </div>
+            <div class="form-group">
+              <label for="checkout">Check-out Date</label>
+              <input type="date" id="checkout" />
+            </div>
+          </div>
+
+          <button type="submit" class="btn-primary full-width">Confirm Booking</button>
+
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

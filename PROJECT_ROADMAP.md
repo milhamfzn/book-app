@@ -1,4 +1,4 @@
-# Meeting Room Booking App — Your Roadmap
+# Hotel Room Booking App — Your Roadmap
 
 **Current phase:** Phase 1 — Foundations  
 **Next goal:** One page with rooms, form, and “Book” button that shows an alert
@@ -13,7 +13,7 @@
 - JavaScript (variables, functions, DOM, click events)
 
 ### Booking app step for Phase 1
-- [ ] Create one HTML page: “Meeting Room Booker”
+- [ ] Create one HTML page: “Hotel Room Booker”
 - [ ] Add a static list of 3–4 rooms (e.g. Room A, B, C)
 - [ ] Add a form: date, time, room, your name
 - [ ] Add a “Book” button that shows an alert with the booking info (no server yet)
@@ -28,7 +28,7 @@
 ## Next 3 Tasks (do in order)
 
 1. **Install Node.js** (if not done) — [nodejs.org](https://nodejs.org), pick LTS  
-2. **Create your first HTML file** — e.g. `client/index.html` with title “Meeting Room Booker”  
+2. **Create your first HTML file** — e.g. `client/index.html` with title “Hotel Room Booker”  
 3. **Add the form and button** — date, time, room dropdown, name, and a “Book” button  
 
 ---

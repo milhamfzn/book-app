@@ -1,6 +1,6 @@
 # Start Here — You're New, That's OK
 
-This folder is your **study** for learning fullstack web development. Your project is a **Meeting Room Booking App**.
+This folder is your **study** for learning fullstack web development. Your project is a **Hotel Room Booking App**.
 
 ---
 
@@ -17,7 +17,7 @@ This folder is your **study** for learning fullstack web development. Your proje
 
 4. **Run the starter page**  
    Open the file `client/index.html` in your browser (double-click it, or right‑click → Open with → your browser).  
-   You should see “Meeting Room Booker” with a list of rooms and a form. Click **Book** and you’ll get an alert. That’s Phase 1 in action.
+   You should see “Hotel Room Booker” with a list of rooms and a form. Click **Book** and you’ll get an alert. That’s Phase 1 in action.
 
 5. **Change something small**  
    In `client/style.css`, change a color (e.g. `#0d6efd` to `#28a745`) or the font. Save and refresh the browser. You’ve just done a tiny bit of “frontend.”

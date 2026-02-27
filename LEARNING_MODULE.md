@@ -1,6 +1,6 @@
 # Fullstack Web Development — Your Learning Module
 
-**Project:** Booking Meeting Room App  
+**Project:** Booking Hotel Room App  
 **For:** Beginners  
 **Goal:** Build a fullstack app from zero and learn the skills you need along the way.
 
@@ -8,7 +8,7 @@
 
 ## What You’ll Have at the End
 
-A **Meeting Room Booking App** where users can:
+A **Hotel Room Booking App** where users can:
 
 - See available rooms  
 - Pick a date and time  
@@ -77,7 +77,7 @@ Do Phase 1, then 2, then 3, and so on.
 
 ## 1.2 Booking app step
 
-- One page: “Meeting Room Booker.”  
+- One page: “Hotel Room Booker.”  
 - Static list of 3–4 rooms (e.g. Room A, B, C).  
 - A form: date, time, which room, your name.  
 - A button “Book” that, when clicked, shows an alert like “Booked Room A for [date].”
@@ -282,4 +282,4 @@ You can start with everything in one folder and split into `client/` and `server
 
 You’re ready to start. Begin with **Phase 1**: one HTML page, a bit of CSS, and a “Book” button that shows an alert. When that works, come back and do the rest of Phase 1, then move to Phase 2.
 
-Good luck — and have fun building your Meeting Room Booker.
+Good luck — and have fun building your Hotel Room Booker.
