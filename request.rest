@@ -1,0 +1,83 @@
+# ------------------------------------------------------------
+# Room Routes
+# ------------------------------------------------------------
+
+# get all rooms
+###
+GET http://localhost:5050/api/rooms
+
+# create a room
+###
+POST http://localhost:5050/api/rooms
+Content-Type: application/json
+
+{
+    "name": "Room 6",
+    "price": 500,
+    "desc": "Room 1231 description",
+    "roomNumbers": [
+        {
+            "number": 152,
+            "unavailableDates": ["2026-02-01", "2026-02-05"]
+        }
+    ]
+}
+
+# get a room
+###
+GET http://localhost:5050/api/rooms/698ed227a5a90ccb2ce43a4c
+
+# update a room
+###
+PUT http://localhost:5050/api/rooms/698ed227a5a90ccb2ce43a4c
+Content-Type: application/json
+
+{
+    "name": "Room 666",
+    "price": 1623,
+    "desc": "Room 6 description Updated"
+}
+
+# delete a room
+###
+DELETE http://localhost:5050/api/rooms/697cc616d1c57e3c4a1518f4
+
+# ------------------------------------------------------------
+# Booking Routes
+# ------------------------------------------------------------
+
+
+# get all bookings
+###
+GET http://localhost:5050/api/bookings
+
+# create a booking
+###
+POST http://localhost:5050/api/bookings
+Content-Type: application/json
+
+{
+    "name": "John Doe 6",
+    "email": "john.doe6@example.com",
+    "checkInDate": "2026-02-15",
+    "checkOutDate": "2026-02-17",
+    "confirmed": true
+}
+
+# get a booking
+###
+GET http://localhost:5050/api/bookings/698ef5d9fdc0185b751d269c
+
+# delete a booking
+###
+DELETE http://localhost:5050/api/bookings/698ef6aa67ac523b9e1df8a9
+
+# update a booking
+###
+PUT http://localhost:5050/api/bookings/698ef1f0fdc0185b751d2698
+Content-Type: application/json
+
+{
+    "room": "Room Deluxe",
+    "name": "John Doe Updated"
+}

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Database files (if you use SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Build / dist (if you add a build step later)
+dist/
+build/
+.next/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
